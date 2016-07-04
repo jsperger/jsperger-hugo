@@ -1,4 +1,4 @@
-baseurl = "http://jsperger.github.io/"
+baseurl = "https://jsperger.github.io/"
 title = "Academic Theme"
 copyright = "&copy; 2016 John Sperger"
 languageCode = "en-us"
