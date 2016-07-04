@@ -3,10 +3,10 @@
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
-hugo -t academic # if using a theme, replace by `hugo -t <yourtheme>`
+hugo -t academic -d ../jsperger.github.io/ # if using a theme, replace by `hugo -t <yourtheme>`
 
 # Go To Public folder
-cd public
+cd ../jsperger.github.io/
 # Add changes to git.
 git add -A
 
@@ -21,4 +21,4 @@ git commit -m "$msg"
 git push origin master
 
 # Come Back
-cd ..
+cd ../jsperger-hugo/

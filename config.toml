@@ -9,7 +9,7 @@ canonifyurls = true
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-80318904-1"
 
 
 [params]
@@ -52,19 +52,19 @@ googleAnalytics = ""
 
   # Selected Publications section.
   # Section will only be displayed if there are publications with `selected = true` in their `+++` preamble.
-  [params.publications_selected]
-    detailed_list = true
-    title = "Selected Publications"
-    subtitle = ""
+#  [params.publications_selected]
+#    detailed_list = true
+#    title = "Selected Publications"
+#    subtitle = ""
 
   # Publications section.
   # Section will only be displayed if there are publications in `content/publication/`.
-  [params.publications]
-    count = 10
-    detailed_list = false
-    title = "Recent Publications"
-    subtitle = ""
-    str_all = "More Publications"
+  #[params.publications]
+#    count = 10
+#    detailed_list = false
+#    title = "Recent Publications"
+#    subtitle = ""
+#    str_all = "More Publications"
 
   # Posts section.
   # Section will only be displayed if there are posts in `content/post/`.
@@ -77,9 +77,9 @@ googleAnalytics = ""
 
   # Projects section.
   # Section will only be displayed if there are projects in `content/project/`.
-  [params.projects]
-    title = "Projects"
-    subtitle = ""
+#  [params.projects]
+#    title = "Projects"
+#    subtitle = ""
 
   # Contact section.
   [params.contact]
